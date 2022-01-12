@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto:ital,wght@0,700;1,700&family=Rock+3D&family=Work+Sans:ital,wght@0,100;0,200;1,100&display=swap');
+
+    body{
+      background-color: skyblue;
+      margin: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+    header{
+      background-color: white;
+      border: 2px solid black;
+      padding: 10px;
+      margin: auto;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+      border-radius: 10px 0px;
+    }
+  
+    nav{
+      background-color:black;
+      padding: 9px;
+      box-shadow: 2px 2px 2px black;
+    }
+    nav#icon{
+      background-color: white;
+    }
+    a{
+      margin: 10px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+    }
+    a:hover{
+      color: skyblue;
+    }
+
+    main{
+      background-color: white;
+      border: 2px solid black;
+      padding: 10px;
+      margin-top: 10px;
+      box-shadow: 2px 2px 5px black;
+      border-radius: 10px 0px;
+    }
+    section#all{
+      background-color: rgb(206, 205, 205);
+      padding: 2px;
+    }
+    section#sobre{
+      margin: 5px;
+    }
+    section#conteudo{
+      font-family: Moon Dance ;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 5px;
+    }
+    aside{
+      background-color: rgb(121, 120, 120);
+    }
+    
+    footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      margin-top: 10px;
+      font-family: monospace;
+      box-shadow: 2px 2px 5px black;
+    }
+    footer > p{
+      margin: 0px;
+    }
+    footer:hover{
+      color: skyblue;
+    }
+    footer > p#fone{
+      display: none;
+    }
+    footer:hover > p#fone{
+      display: block;
+      background-color: rgb(121, 120, 120);
+      color: black;
+      font-weight: bold;
+      width: 95px;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Meu Site</h1>
+    <nav>
+     <a href="http://facebook.com" target="_blank" rel="external">Facebook</a>
+     <a href="http://instagram.com" target="_blank" rel="external">Instagram</a>
+      <a href="http://linkedin.com" target="_blank" rel="external">Linkedin</a>
+      <a href="http://github.com" target="_blank" rel="external">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+  <section id="all">
+    <section id="sobre">
+      <h2>Sobre:</h2>
+    </section>
+    <section id="conteudo">
+      <article>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem doloremque iste corporis obcaecati aliquid, dolor a ipsa dignissimos quas quod nisi consequuntur, unde, veniam quis alias. Fuga nobis ducimus facilis.
+        <aside>
+          <p>Artigo escrito por Ygor De Mileto</p>
+        </aside>
+      </article>
+    </section>
+  </section>
+  </main>  
+
+  <footer>
+    <p>Desenvolvido por AçaiComTi</p>
+    <p id="fone">91 9 83147072</p>
+  </footer>
+</body>
+</html>
